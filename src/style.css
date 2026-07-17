@@ -613,7 +613,7 @@ ul{
 
     position:absolute;
 
-    left:70px;
+    left:120px;
 
     bottom:70px;
 
@@ -1672,11 +1672,11 @@ white-space: nowrap;
 
         90deg,
 
-        rgba(0,0,0,.75),
+        rgba(37, 37, 37, 0.678),
 
-        rgba(0,0,0,.30),
+        rgba(0, 0, 0, 0.151),
 
-        rgba(0,0,0,.05)
+        rgba(0, 0, 0, 0)
 
     );
 
@@ -2224,6 +2224,95 @@ white-space: nowrap;
 .slide-overlay h2{
 
     font-size:20px;
+
+}
+
+
+}
+
+/*==================================================
+        AJUSTES DO SLIDER PARA CELULAR
+==================================================*/
+
+@media(max-width:768px){
+
+
+/* Título do banner */
+
+.slide-overlay h2{
+
+    font-size:20px;
+
+    line-height:1.2;
+
+    margin-bottom:10px;
+
+}
+
+
+/* Texto do banner */
+
+.slide-overlay p{
+
+    display:none;
+
+}
+
+
+/* Botão Saiba Mais */
+
+.btn-banner{
+
+    padding:9px 18px;
+
+    font-size:13px;
+
+    border-radius:30px;
+
+}
+
+
+
+/* Posicionamento do texto */
+
+.slide-overlay{
+
+    left:20px;
+
+    bottom:25px;
+
+    max-width:65%;
+
+}
+
+
+
+/* Botões das setas */
+
+.prev,
+.next{
+
+    width:35px;
+
+    height:35px;
+
+    font-size:14px;
+
+}
+
+
+/* Afasta as setas das bordas */
+
+.prev{
+
+    left:10px;
+
+}
+
+
+.next{
+
+    right:10px;
 
 }
 
